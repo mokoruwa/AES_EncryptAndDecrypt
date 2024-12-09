@@ -39,6 +39,7 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             label5 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // textBox1
@@ -143,11 +144,22 @@
             label5.TabIndex = 10;
             label5.Text = "Initialization Vector (IV):";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(186, 402);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(83, 19);
+            checkBox1.TabIndex = 11;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1248, 591);
+            Controls.Add(checkBox1);
             Controls.Add(label5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -178,5 +190,6 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Label label5;
+        private CheckBox checkBox1;
     }
 }
