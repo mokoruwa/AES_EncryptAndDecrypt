@@ -39,6 +39,7 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             label5 = new Label();
+            checkedListBox1 = new CheckedListBox();
             SuspendLayout();
             // 
             // textBox1
@@ -143,11 +144,20 @@
             label5.TabIndex = 10;
             label5.Text = "Initialization Vector (IV):";
             // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Location = new Point(199, 404);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(120, 94);
+            checkedListBox1.TabIndex = 11;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1248, 591);
+            Controls.Add(checkedListBox1);
             Controls.Add(label5);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -178,5 +188,6 @@
         private TextBox textBox3;
         private TextBox textBox4;
         private Label label5;
+        private CheckedListBox checkedListBox1;
     }
 }
